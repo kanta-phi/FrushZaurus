@@ -30,4 +30,4 @@ add_custom_target(
     WORKING_DIRECTORY ${CMAKE_CURRENT_SOURCE_DIR}
 )
 
-add_executable(Z_DUMMY_TARGET ${SRC_LIST} include/gameManager.h src/Luminous.cpp src/GameMode.cpp src/Judge.cpp src/Accelerometer.cpp include/Accelerometer.h)
+add_executable(Z_DUMMY_TARGET ${SRC_LIST} include/Accelerometer.h test/test.cpp test/tmp_pio_test_transport.cpp)
